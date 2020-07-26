@@ -1,0 +1,36 @@
+//Colors
+$limeGreen: hsl(163, 72%, 41%);
+$brightRed: hsl(356, 69%, 56%);
+$facebook: hsl(208, 92%, 53%);
+$twitter: hsl(203, 89%, 53%);
+$instagram: linear-gradient(to left,hsl(37, 97%, 70%) 0% , hsl(329, 70%, 58%));
+$youtube: hsl(348, 97%, 39%);
+$white: hsl(0, 0%, 100%);
+$black: rgb(0, 0, 0);
+$darkToggle: linear-gradient(to left,hsl(210, 78%, 56%) 0% , hsl(146, 68%, 55%));
+$lightToggle: hsl(230, 22%, 74%);
+
+//Dark
+$backgroundDark: hsl(230, 17%, 14%);
+$topBackgroundDark: hsl(232, 19%, 15%);
+$cardBackgroundDark: hsl(228, 28%, 20%);
+$textMainDark: hsl(228, 34%, 66%);
+$textSecondaryDark: hsl(0, 0%, 100%);
+// Light
+$backgroundLight: hsl(0, 0%, 100%);
+$topBackgroundLight: hsl(225, 100%, 98%);
+$cardBackgroundLight: hsl(227, 47%, 96%);
+$textMainLight: hsl(228, 12%, 44%);
+$textSecondaryLight: hsl(230, 17%, 14%);
+
+//Font Sizes
+$font-xsmall: 0.75rem; //12px
+$font-small: 0.875rem; //14px
+$font-med: 1.8rem; //28.8px 
+$font-large: 2.625rem; //42px 
+$font-xlarge: 3.5rem; //64px
+
+//Font Weights 
+$normal: 400;
+$bold: 700;
+$xbold: 900;

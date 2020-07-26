@@ -1,0 +1,56 @@
+body.light-theme {
+    background: linear-gradient(180deg, $topBackgroundLight 25%, $backgroundLight 0%);
+}
+
+hr.divider.light-theme {
+    border: 0.5px solid $lightToggle !important;
+}
+
+section.header .header--main p.light-theme {
+    color: $textMainLight;
+}
+
+.header--toggle h3.light-theme {
+    color: $textMainLight;
+}
+
+.toggle--theme-switch.light-theme {
+    background: $white;
+}
+
+.card.light-theme {
+    background-color: $cardBackgroundLight !important;
+}
+
+.card.light-theme:hover {
+    background-color: hsl(232, 33%, 91%) !important;
+}
+
+h2.card--username.light-theme {
+    color: $textMainLight;
+}
+
+span.count--number.light-theme {
+    color: $textSecondaryLight;
+}
+
+.overview--card.light-theme {
+    background-color: $cardBackgroundLight;
+}
+
+.overview--card.light-theme:hover {
+    background-color: hsl(232, 33%, 91%) !important;
+}
+
+h3.card--title.light-theme {
+    color: $textMainLight;
+}
+
+h2.overview--count.light-theme {
+    color: $textSecondaryLight;
+}
+
+h2.overview--heading {
+    color: $textMainLight;
+    ;
+}

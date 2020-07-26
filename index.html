@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Social Dahsboard</title>
+  <link rel="stylesheet" href="/dist/css/style.min.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <section class="header">
+      <div class="header--main">
+        <h1>Social Media Dashboard</h1>
+        <p>Total Followers: 23,004</p>
+      </div>
+      <hr class="divider" />
+      <div class="header--toggle">
+        <h3>Dark Mode</h3>
+        <div class="toggle--theme">
+          <input type="checkbox" id="mytoggle--theme" class="toggle--theme-checkbox" />
+          <label class="toggle--theme-label" for="mytoggle--theme">
+            <span class="toggle--theme-inner"></span>
+            <span class="toggle--theme-switch"></span>
+          </label>
+        </div>
+      </div>
+
+    </section>
+    <section class="followers">
+      <div class="card facebook">
+        <div class="card--info">
+          <img src="/images/icon-facebook.svg" alt="Facebook Icon" class="card--icon">
+          <h2 class="card--username">@nathanf</h2>
+        </div>
+        <div class="card--count">
+          <span class="count--number">1987</span>
+          <span class="count--text">Followers</span>
+        </div>
+        <div class="card--change">
+          <img src="/images/icon-up.svg" alt="Follower Increase" class="change--icon">
+          <div class="change--amount up">12 Today</div>
+        </div>
+      </div>
+      <div class="card twitter">
+        <div class="card--info">
+          <img src="/images/icon-twitter.svg" alt="Twiiter Icon" class="card--icon">
+          <h2 class="card--username">@nathanf</h2>
+        </div>
+        <div class="card--count">
+          <span class="count--number">1044</span>
+          <span class="count--text">Followers</span>
+        </div>
+        <div class="card--change">
+          <img src="/images/icon-up.svg" alt="Follower Increase" class="change--icon">
+          <div class="change--amount up">99 Today</div>
+        </div>
+      </div>
+      <div class="card instagram">
+        <div class="card--info">
+          <img src="/images/icon-instagram.svg" alt="Instagram Icon" class="card--icon">
+          <h2 class="card--username">@nathanf</h2>
+        </div>
+        <div class="card--count">
+          <span class="count--number">11k</span>
+          <span class="count--text">Followers</span>
+        </div>
+        <div class="card--change">
+          <img src="/images/icon-up.svg" alt="Follower Increase" class="change--icon">
+          <div class="change--amount up">1099 Today</div>
+        </div>
+      </div>
+      <div class="card youtube">
+        <div class="card--info">
+          <img src="/images/icon-youtube.svg" alt="Youtube Icon" class="card--icon">
+          <h2 class="card--username">Nathan F.</h2>
+        </div>
+        <div class="card--count">
+          <span class="count--number">8239</span>
+          <span class="count--text">Followers</span>
+        </div>
+        <div class="card--change">
+          <img src="/images/icon-down.svg" alt="Follower Increase" class="change--icon">
+          <div class="change--amount down">144 Today</div>
+        </div>
+      </div>
+    </section>
+    <h2 class="overview--heading">Overview - Today</h2>
+    <section class="overview">
+      <div class="overview--card">
+        <div class="overview--card-top">
+          <h3 class="card--title">Page Views</h3>
+          <img src="/images/icon-facebook.svg" alt="Facebook Icon" class="card--icon">
+        </div>
+        <div class="overview--card-bottom">
+          <h2 class="overview--count">87</h2>
+          <div class="overview--change up">
+            <img src="/images/icon-up.svg" alt="Follower Increase" class="change--icon">
+            3%</div>
+        </div>
+      </div>
+      <div class="overview--card">
+        <div class="overview--card-top">
+          <h3 class="card--title up">Likes</h3>
+          <img src="/images/icon-facebook.svg" alt="Facebook Icon" class="card--icon">
+        </div>
+        <div class="overview--card-bottom">
+          <h2 class="overview--count">52</h2>
+          <div class="overview--change up">
+            <img src="/images/icon-up.svg" alt="Follower Increase" class="change--icon">
+            2%</div>
+        </div>
+      </div>
+      <div class="overview--card">
+        <div class="overview--card-top">
+          <h3 class="card--title">Likes</h3>
+          <img src="/images/icon-instagram.svg" alt="Instagram Icon" class="card--icon">
+        </div>
+        <div class="overview--card-bottom">
+          <h2 class="overview--count">5462</h2>
+          <div class="overview--change up">
+            <img src="/images/icon-up.svg" alt="Follower Increase" class="change--icon">
+            2257%</div>
+        </div>
+      </div>
+      <div class="overview--card">
+        <div class="overview--card-top">
+          <h3 class="card--title">Profile Views</h3>
+          <img src="/images/icon-instagram.svg" alt="Instagram Icon" class="card--icon">
+        </div>
+        <div class="overview--card-bottom">
+          <h2 class="overview--count">52k</h2>
+          <div class="overview--change up">
+            <img src="/images/icon-down.svg" alt="Follower Count" class="change--icon">
+            1375%</div>
+        </div>
+      </div>
+      <div class="overview--card">
+        <div class="overview--card-top">
+          <h3 class="card--title">Retweets</h3>
+          <img src="/images/icon-twitter.svg" alt="Twitter Icon" class="card--icon">
+        </div>
+        <div class="overview--card-bottom">
+          <h2 class="overview--count">117</h2>
+          <div class="overview--change up">
+            <img src="/images/icon-up.svg" alt="Follower Increase" class="change--icon">
+            303%</div>
+        </div>
+      </div>
+      <div class="overview--card">
+        <div class="overview--card-top">
+          <h3 class="card--title">Likes</h3>
+          <img src="/images/icon-twitter.svg" alt="Twitter Icon" class="card--icon">
+        </div>
+
+        <div class="overview--card-bottom">
+          <h2 class="overview--count">507</h2>
+          <div class="overview--change up">
+            <img src="/images/icon-up.svg" alt="Follower Increase" class="change--icon">
+            553%</div>
+        </div>
+      </div>
+      <div class="overview--card">
+        <div class="overview--card-top">
+          <h3 class="card--title">Likes</h3>
+          <img src="/images/icon-youtube.svg" alt="Youtube Icon" class="card--icon">
+        </div>
+        <div class="overview--card-bottom">
+          <h2 class="overview--count">107</h2>
+          <div class="overview--change down">
+            <img src="/images/icon-down.svg" alt="Follower Count" class="change--icon">
+            19%</div>
+        </div>
+      </div>
+      <div class="overview--card">
+        <div class="overview--card-top">
+          <h3 class="card--title">Total Views</h3>
+          <img src="/images/icon-youtube.svg" alt="Youtube Icon" class="card--icon">
+        </div>
+        <div class="overview--card-bottom">
+          <h2 class="overview--count">1407</h2>
+          <div class="overview--change down">
+            <img src="/images/icon-down.svg" alt="Follower Count" class="change--icon">
+            12%</div>
+        </div>
+      </div>
+  </div>
+  </div>
+  <script src="/app/js/script.js"></script>
+</body>
+
+</html>
