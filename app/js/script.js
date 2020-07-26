@@ -30,69 +30,31 @@ toggle.addEventListener('input', (e) => {
         totalFollowers.classList.remove('light-theme');
         headerToggle.classList.remove('light-theme');
     }
-    //Main Card BG
+
+    //Main Card 
     for (var i = 0; i < card.length; i++) {
         if (isChecked) {
             card[i].classList.add('light-theme');
+            cardTitle[i].classList.add('light-theme');
+            cardNumber[i].classList.add('light-theme');
+
         } else {
             card[i].classList.remove('light-theme');
-        }
-    }
-    //Main Card Title/Username
-    for (var i = 0; i < cardTitle.length; i++) {
-        if (isChecked) {
-            cardTitle[i].classList.add('light-theme');
-        } else {
             cardTitle[i].classList.remove('light-theme');
-        }
-    }
-    //Main Card Number/Count
-    for (var i = 0; i < cardNumber.length; i++) {
-        if (isChecked) {
-            cardNumber[i].classList.add('light-theme');
-        } else {
             cardNumber[i].classList.remove('light-theme');
+
         }
     }
-    //Overview Card BG
+    //Overview Card 
     for (var i = 0; i < overviewCard.length; i++) {
         if (isChecked) {
             overviewCard[i].classList.add('light-theme');
-        } else {
-            overviewCard[i].classList.remove('light-theme');
-        }
-    }
-    //Overview Card Title/Username
-    for (var i = 0; i < overviewCardTitle.length; i++) {
-        if (isChecked) {
             overviewCardTitle[i].classList.add('light-theme');
-        } else {
-            overviewCardTitle[i].classList.remove('light-theme');
-        }
-    }
-    //Overview Card Number/Count
-    for (var i = 0; i < overviewCardCount.length; i++) {
-        if (isChecked) {
             overviewCardCount[i].classList.add('light-theme');
         } else {
+            overviewCard[i].classList.remove('light-theme');
+            overviewCardTitle[i].classList.remove('light-theme');
             overviewCardCount[i].classList.remove('light-theme');
         }
     }
 });
-
-
-//Should have done something like this instead
-
-// const toggle = document.getElementById('mytoggle--theme');
-// console.log(toggle);
-
-// function switchTheme(e) {
-//     if (e.target.checked) {
-//         console.log("chcked");
-//         document.documentElement.setAttribute('data-theme', 'light');
-//     }
-//     else {
-//         document.documentElement.setAttribute('data-theme', 'default');
-//     }    
-// }
-// toggle.addEventListener('change', switchTheme, false);
